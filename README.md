@@ -1,6 +1,9 @@
 # surfs_up
 ## Overview of the analysis: 
 Climate Analysis and Data Exploration of Climate Database Using Python (Pandas, Matplotlib), SQLAlchemy (ORM Queries) and Flask of the city of Oahu, Hawaii in order to see if there are proper conditions to open a surfing and ice cream store.
+## Resources:
+* Data: hawaii.sqlite
+* Software: Python 3.9.5, Jupyter Notebook 6.3.0
 ## Results: 
 ### STEP 1: Climate Analysis and Exploration
 Using Python nd SQLAlchemy a basic climate analysis and exploration of the data of the climate database. The following analysis was performed:
@@ -48,6 +51,14 @@ The next routes were defined in order to display different results from th eprev
  * Query a list of the minimun, maximum and average temperatures of a given <code>start</code> and <code>end</code> date.
  * If no end date was provided, it will return the results of any available date greater than or equal than the starting date.
 ## Challenge
+In this week challenge, it was required to create a query to retrieve information from our database filtering from two different months: June and December. Analyzing this two very different climate months we could discover if the surf and ice cream shop is sustainable all year-round.
+### Results
+Here we can see the tables obtained from tha analysis performed for both months.
+
+With this results we get the next insights:
+* June temperatures range from 64°F to 85°F whereas December temperatures range from 56°F to 83°F.
+* The average temperature for the month of June is 74.94°F, which is 3 degrees higher than the average temperature in the month of December with 71.04°F.
+* The minimum recorde temperature from June was 64°F in comparisson of the minimum temperature in December that was 56°F, 8 degrees less.
 
 ## Summary: 
 Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
